@@ -20,7 +20,7 @@ public class ClientExampleController {
 	UIData uiData = new UIData();
 
 	public String serviceUrl() {
-	    return "http://localhost:8012";
+	    return "https://be-20201011.apps.sys.openlab-01.kr/";
 	}
 	
     @RequestMapping(value="/emplist", method=RequestMethod.GET)
